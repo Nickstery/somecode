@@ -1,0 +1,1 @@
+a:3:{i:0;a:2:{s:4:"name";s:6:"Viktor";s:3:"age";i:91;}i:1;a:2:{s:4:"name";s:3:"Ole";s:3:"age";i:8;}i:2;a:2:{s:4:"name";s:4:"Avle";s:3:"age";i:12;}}
