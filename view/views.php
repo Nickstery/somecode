@@ -5,9 +5,10 @@ function getMainView() {
     $html = buildTable(getRows());
 
     $html .= '<br>
-    <form action="http://localhost:63342/test_lesson/api.php?action=add" method="POST">
+    <form action="http://localhost:63342/test_lesson/api.php?action=add" method="POST" enctype="multipart/form-data">
         <input type="text" name="name" placeholder="USer Name"><br>
         <input type="number" name="age" placeholder="Age"><br>
+        <input type="file" name="file" placeholder="File to upload"><br>
         <input type="submit" value="Add User">
     </form>';
     die($html);
